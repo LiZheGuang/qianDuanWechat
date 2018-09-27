@@ -1,0 +1,9 @@
+{{message}}
+
+<block wx:if="{{userInfoData}}">
+<view>登录成功</view>
+</block>
+<block wx:else>
+  <button  open-type="getUserInfo" bindgetuserinfo="onGetUserInfo" >登录</button>
+</block>
+
